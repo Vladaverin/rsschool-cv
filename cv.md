@@ -7,4 +7,4 @@ Born in Russia, moved to Minsk 3 years ago. Now I study at BSU School of Busines
 
 Didn't take any courses. This is my first time. He studied himself using videos by Dmitry Valak (YouTube: BrainsCloud) and Vladilen Minin (YouTube: Vladilen Minin)
 
-My knowledge of English is lame, I often use Google translator. I wrote this CV with the help of a translator
+My knowledge of English is lame, I often use Google translator. I wrote this CV with the help of a translator.
