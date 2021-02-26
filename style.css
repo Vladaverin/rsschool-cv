@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: url(./img/back.jpg) center repeat;
+}
+
+/* Header */
+
+.header {
+    height: 250px;
+    border-bottom: 3px solid black;
+    transition: linear 0.2s;
+}
+
+.header:hover {
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+.header__photo {
+    border-radius: 50%;
+    border: 3px solid black;
+    height: 220px;
+}
+
+.header__title {
+    align-self: flex-end;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.photo__wrapper {
+    display: flex;
+    align-self: center;
+}
+
+/* CONTEINER */
+
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Nav */
+
+.nav__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-self: center;
+}
+
+.nav__svg {
+    width: 60px;
+    height: 60px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 0;
+    width: 400px;
+}
+
+.nav__link:last-child {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 0 -12px 0;
+    width: 400px;
+}
+
+.nav__info {
+    padding-left: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.nav__info:hover {
+    font-weight: 700;
+}
+
+/* INTRO */
+
+.intro {
+    transition: linear 0.2s;
+    height: 504px;
+}
+
+.intro:hover {
+    background-color: rgba(138, 43, 226, 0.5);
+}
+
+.p__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__p {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.intro__p:last-child {
+    font-size: 28px;
+    margin: 10px 0 0 0;
+}
+
+.intro__wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro__title {
+    font-size: 36px;
+    margin-top: 8px;
+}
